@@ -21,7 +21,7 @@ image:
 #   url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "https://drive.google.com/drive/folders/1_sC7vSGdzONLVBRYDuS7hOgkqMByvVro?usp=sharing"
 url_video: ""
 
 # Slides (optional).
