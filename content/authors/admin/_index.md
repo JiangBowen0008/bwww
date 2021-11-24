@@ -26,7 +26,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: BSc in Engineering
+  - course: B.Sc. in Engineering
     institution: Harvey Mudd College
     year: Expected 2022
   - course: High School
