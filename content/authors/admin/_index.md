@@ -40,7 +40,8 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'
+  # link: '/#contact'
+  link: mailto:bjiang@g.hmc.edu
 - icon: github
   icon_pack: fab
   link: https://github.com/JiangBowen0008
