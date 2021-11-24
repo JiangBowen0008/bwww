@@ -14,7 +14,7 @@ organizations:
   url: https://www.hmc.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include robotics, reinforcement learning, motion planning, and SLAM.
+bio: Engineering Student @ Harvey Mudd College. Reinforcement Learning. Robotics. Motion Planning.
 
 # Interests to show in About widget
 interests:
