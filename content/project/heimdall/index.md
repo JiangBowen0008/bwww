@@ -1,6 +1,6 @@
 ---
 title: "Project Heimdall: Indoor Corner Case Detection"
-summary: Mapping corner case objects with sensor fusion with LIO-SAM as the backbone.
+summary: Mapping corner case objects (such as glass and mirrors) with sensor fusion on top of LIO-SAM as backbone. Harvey Mudd College Engineering clinic program.
 tags:
 - Robotics
 - SLAM
@@ -32,17 +32,17 @@ url_video: ""
 slides: ""
 ---
 
-*Details of our sponsor are confidential due to NDA.*
+*Information of our sponsor are confidential due to NDA.*
 
-# Problem Statement
+## Problem Statement
 
 Indoor perception of obstacles and objects has been worked on for decades with recent major advances in both algorithms (e.g. Deep Learning / Machine Learning) as well as hardware (e.g. high-res cameras, LiDAR). Current systems work well for nominal cases such as detecting common, solid objects (e.g. furniture, walls or household items). However, there has been substantially less focus on rare, but important corner cases such as glass walls/doors, puddles and liquid spills, pot holes, or mirrors that can occur in applications such as industrial and manufacturing environments. This project aims at focusing on the detection of obstacles typical indoor perception systems fail at.
 
-# Overall Goal
+## Overall Goal
 
 The team will create a comprehensive list of corner cases and select a set of indoor corner cases to solve based on the frequency at which they are encountered in the environment and their difficulty. The team will then develop a solution to the selected set of corner cases along with its performance metric, and build a handheld prototype to evaluate and demonstrate the performance of the solution.
 
-# Work at Progress
+## Work at Progress
 
 - Develop a scalable SLAM algorithm based on LIO-SAM with VLP-16 and VectorNav-100T-CR.
 - Develop a corner case detection module using RGBD camera and a TI radar (sensor fusion).
