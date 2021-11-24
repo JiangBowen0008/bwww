@@ -31,7 +31,7 @@ url_video: ""
 slides: ""
 ---
 
-# Background
+## Background
 
 One problem we encountered when working with the object encoded Atari games is that how do we have a network that takes input as a set and output a different set. There are mainly three difficulties:
 
@@ -39,7 +39,7 @@ One problem we encountered when working with the object encoded Atari games is t
 2. **Unordered nature of the set structure.** Set is different from a sequence, where the order of elements matters. While applying sequential models such as RNN or LSTM handles the MIMO problem, it is not the ideal candidate for sets. Having to worry about the order of input objects is undesired.
 3. **Set matching.** In order to train a network, we also need to know the ground truth labels. Therefore, matching the network predictions with the ground truth labels is also a topic we studied.
 
-# My Works Involve
+## My Works Involve
 
 ![New object predictions with uncertainties](/content/project/set_output/image.png)
 
