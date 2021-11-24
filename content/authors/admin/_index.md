@@ -63,7 +63,7 @@ email: "bjiang@g.hmc.edu"
 highlight_name: true
 ---
 
-I am a Engineering undergraduate student at Harvey Mudd College. My research interests include robotics, reinforcement learning, motion planning, and SLAM. Currently I am most interested in developing robust robots that perform under unknown and complex environments.
+I am a Engineering undergraduate student at Harvey Mudd College. My primary research interests include robotics, reinforcement learning, motion planning, and SLAM. Currently, I am most interested in developing robust robots that perform under unknown and complex environments.
 
 As part of the Harvey Mudd College HSA (Humanities, Social Sciences, and the Arts) program, my concentration is on visual arts.
 

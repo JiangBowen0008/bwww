@@ -22,28 +22,28 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
+  - title: Researcher
+    company: L.A.C.E. Lab @ HMC.
     company_url: ''
-    company_logo: org-gc
+    company_logo: hmc
     location: California
-    date_start: '2021-01-01'
+    date_start: '2019-05-15'
     date_end: ''
-    description: |2-
-        Responsibilities include:
+    description: |2-       
+        - Selective Planning. Using uncertainty in prediction models for a more effective TD learning (developed on the previous work https://arxiv.org/abs/2007.02418.)
+        - Atari Game for test platform. Implemented with PyTorch C++ frontend for the NN version, with Eigen for the tree version.
+        - Developing object-based prediction models for reinforcement learning agents in uncertain environments.
         
-        * Analysing
-        * Modelling
-        * Deploying
-        
-  - title: Professor of Semiconductor Physics
-    company: University X
+  - title: Researcher
+    company: Institute of Automation Chinese Academy of Sciences (CASIA)
     company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    company_logo: casia
+    location: Beijing
+    date_start: '2020-08-01'
+    date_end: '2021-3-01'
+    description: |2-       
+        - POIS: Policy-Oriented Instance Segmentation for Ambidextrous Robot Picking. ICRA 2021. First author (co-listed).
+        - Overcoming the motion planning problem when a pair of parallel robot arms share a working space using a policy-oriented segmentation strategy.
 
 design:
   columns: '2'
