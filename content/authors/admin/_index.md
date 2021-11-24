@@ -6,7 +6,7 @@ title: Bowen Jiang
 superuser: true
 
 # Role/position/tagline
-role: Undergraduate Student in Engineering
+role: Undergraduate Engineering Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
