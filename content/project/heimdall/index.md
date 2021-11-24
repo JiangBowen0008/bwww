@@ -1,17 +1,17 @@
 ---
-title: "POIS: Policy-Oriented Instance Segmentation for Ambidextrous Robot Picking"
-summary: Instance segmentation along with anbidextrous robot grasping policies in cluttered scene.
+title: "Project Heimdall: Indoor Corner Case Detection"
+summary: Mapping corner case objects with sensor fusion with LIO-SAM as the backbone.
 tags:
 - Robotics
-- Motion Planning
+- SLAM
 - Machine Learning
 date: "2021-05-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://sites.google.com/view/policy-instance-segmentation/home"
+external_link: ""
 
 image:
-  caption: Image Extracted from our paper
+  caption: Point Cloud Map
   focal_point: Smart
 
 # links:
@@ -22,7 +22,7 @@ image:
 url_code: ""
 url_pdf: ""
 url_slides: ""
-url_video: "https://www.youtube.com/watch?v=GIXs6TAaPM8"
+url_video: ""
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -32,8 +32,26 @@ url_video: "https://www.youtube.com/watch?v=GIXs6TAaPM8"
 slides: ""
 ---
 
-My works involve mainly:
-- POIS Implementation – Implemented a PyTorch pipeline that generates a pair of target masks by fusing several network outputs.
-- POIS Dataset – Generated a synthetic dataset of 6000 scenes using BlenderProc. The dataset features a variety of clutteredness and an equal distribution of graspable and suckable objects; designing a metric to select the best grasp pair. Labeled using BOP Toolkit and PyBullet.
+*Details of our sponsor are confidential due to NDA.*
 
-For details of this project, please visit our (website)[https://sites.google.com/view/policy-instance-segmentation/home].
+# Problem Statement
+
+Indoor perception of obstacles and objects has been worked on for decades with recent major advances in both algorithms (e.g. Deep Learning / Machine Learning) as well as hardware (e.g. high-res cameras, LiDAR). Current systems work well for nominal cases such as detecting common, solid objects (e.g. furniture, walls or household items). However, there has been substantially less focus on rare, but important corner cases such as glass walls/doors, puddles and liquid spills, pot holes, or mirrors that can occur in applications such as industrial and manufacturing environments. This project aims at focusing on the detection of obstacles typical indoor perception systems fail at.
+
+# Overall Goal
+
+The team will create a comprehensive list of corner cases and select a set of indoor corner cases to solve based on the frequency at which they are encountered in the environment and their difficulty. The team will then develop a solution to the selected set of corner cases along with its performance metric, and build a handheld prototype to evaluate and demonstrate the performance of the solution.
+
+# Work at Progress
+
+- Develop a scalable SLAM algorithm based on LIO-SAM with VLP-16 and VectorNav-100T-CR.
+- Develop a corner case detection module using RGBD camera and a TI radar (sensor fusion).
+- Map the corner case objects to the global map.
+- Port all the softwares to Jetson Nano.
+- Make the entire setup portable.
+
+
+
+
+
+
