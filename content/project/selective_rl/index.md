@@ -10,7 +10,7 @@ date: "2021-05-30T00:00:00Z"
 external_link: ""
 
 image:
-  caption: Point Cloud Map
+  caption: Results from Deictic Tree Training
   focal_point: Smart
 
 # links:
