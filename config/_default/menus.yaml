@@ -7,6 +7,9 @@ main:
   - name: Home
     url: '#about'
     weight: 10
+  - name: Experience
+    url: '#experience'
+    weight: 20
   - name: CV
     url: uploads/Bowen_Resume2021.pdf
     weight: 70
