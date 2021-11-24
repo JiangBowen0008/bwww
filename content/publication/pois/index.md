@@ -7,7 +7,7 @@ title: "POIS: Policy-Oriented Instance Segmentation for Ambidextrous Robot Picki
 authors:
 - Guangyun Xu
 - Yi Tao
-- Bowen Jiang
+- admin
 - Peng Wang
 - Yongkang Luo
 - Jun Zhong
@@ -49,14 +49,14 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://ieeexplore.ieee.org/document/9562045'
 url_code: ''
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: 'https://sites.google.com/view/policy-instance-segmentation/home'
 url_slides: ''
 url_source: ''
-url_video: ''
+url_video: 'https://www.youtube.com/watch?v=GIXs6TAaPM8'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
