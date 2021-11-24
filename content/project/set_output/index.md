@@ -41,7 +41,7 @@ One problem we encountered when working with the object encoded Atari games is t
 
 # My Works Involve
 
-![New object predictions with uncertainties](content/project/set_output/image.png)
+![New object predictions with uncertainties](/content/project/set_output/image.png)
 
 * Identified the problems: permutation invariance, variable cardinality
 * Set-based prediction literature research
