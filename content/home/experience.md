@@ -40,7 +40,7 @@ experience:
     company_logo: casia
     location: Beijing
     date_start: '2020-08-01'
-    date_end: '2021-3-01'
+    date_end: '2021-03-01'
     description: |2-       
         - POIS: Policy-Oriented Instance Segmentation for Ambidextrous Robot Picking. ICRA 2021. First author (co-listed).
         - Overcoming the motion planning problem when a pair of parallel robot arms share a working space using a policy-oriented segmentation strategy.
