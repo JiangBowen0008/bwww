@@ -31,11 +31,11 @@ url_video: ""
 slides: ""
 ---
 
-# Overall Description
+## Overall Description
 
 Using deictic tree for model-based reinforcement learning. The deictic tree uses uncertainty for selective learning in a mannar that is sensitive to marginal and nonlinear changes.
 
-# My Works Involve
+## My Works Involve
 
 * Implemented Selective MVE based on the paper Selective Dyna-style Planning Under Limited Model Capacity
   - An algorithm that weights rollouts using their uncertainties
